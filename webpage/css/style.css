@@ -134,7 +134,7 @@ a:hover { text-decoration: underline; color: #90D355; }
 
 code, pre { font-family: 'Monaco', 'Lucida Console', monospace; }
 
-h1.title { margin: 30px 20px 10px; font-size: 60px; font-weight: bold; font-style: italic; font-family: Georgia, serif; text-align: center; }
+h1.title { margin: 15px 10px 5px; font-size: 30px; font-weight: bold; font-style: italic; font-family: Georgia, serif; text-align: center; }
 
 .wrapper { width: 675px; margin: 0 auto; }
 
