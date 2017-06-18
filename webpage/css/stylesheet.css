@@ -456,7 +456,6 @@ h1.title {
 }
 
 .wrapper {
-  /*width: 675px;*/
   width: 85%;
   margin: 0 auto;
 }
@@ -471,6 +470,10 @@ p.tagline {
   padding: 0px;
   color: #fff;
   font-size: 17px;
+  text-align: center;
+}
+
+.preview p {
   text-align: center;
 }
 
@@ -556,7 +559,7 @@ p.tagline {
   padding-left: 35px;
   margin-top: 8px;
   display: block;
-  float: left;
+  float: right;
   text-indent: 0;
   width: auto;
   height: auto;
@@ -568,7 +571,8 @@ p.tagline {
   position: fixed;
   top: 0;
   left: 50%;
-  width: 693px;
+  /*width: 693px;*/
+  width: 90%;
   margin-left: -352px;
   background: #222;
   border: 5px solid #444;
@@ -622,6 +626,19 @@ a.zip span {
   -webkit-transition: opacity ease-in-out 0.3s;  /* Safari <=6.1, Android <= 4.3 */
 }
 
+a.pdf,
+a.pdf span {
+  background: transparent url(../images/pdf.png) no-repeat 0 0;
+  width: 30px;
+  height: 21px;
+  display: inline-block;
+  text-indent: -10000px;
+  opacity: 0.8;
+  filter:alpha(opacity=80);  /* IE 5-7 */
+  transition: opacity ease-in-out 0.3s;
+  -webkit-transition: opacity ease-in-out 0.3s;  /* Safari <=6.1, Android <= 4.3 */
+}
+
 a.tar,
 a.tar span {
   background: transparent url(../images/tar.png) no-repeat 0 0;
@@ -650,6 +667,7 @@ a.code {
 
 a.zip:hover,
 a.tar:hover,
+a.pdf:hover,
 a.code:hover {
   opacity: 1;
   filter:alpha(opacity=100);
@@ -661,7 +679,7 @@ a.download-button {
   display: inline-block;
   text-indent: 0!important;
   width: auto;
-  float: right;
+  float: left;
   background: #999; /* for non-css3 browsers */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#37ADD4', endColorstr='#1B657E'); /* IE <= 9 */
   background: -webkit-gradient(linear, left top, left bottom, from(#37ADD4), to(#1B657E)); /* ancient webkit browsers */

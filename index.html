@@ -1,59 +1,67 @@
 <!DOCTYPE html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
-<html><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<html>
+	
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <link rel="stylesheet" href="webpage/css/stylesheet.css">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="webpage/js/javascript.js"></script>
+	<link rel="stylesheet" href="webpage/css/stylesheet.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="webpage/js/javascript.js"></script>
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+		});
+	</script>
+	<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML"></script>
 
-  <title>Maxima and the Calculus</title>
-  <meta name="description" content="A short manuscript on using Maxima to solve typical calculus problems.">
-
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
+	<title>Maxima and the Calculus</title>
+	<meta name="description" content="A short manuscript on using Maxima to solve typical calculus problems.">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 
 <body>
+	<div class="wrapper">
+		<header>
+			<h1 class="title">Maxima and the Calculus</h1>
+		</header>
+		<div id="container">
+			<p class="tagline">A short manuscript on using Maxima to solve typical calculus problems</p>
+			<div id="main" role="main">
+				<div class="download-bar">
+					<div class="inner">
+						<a href="https://github.com/lqbrin/maxima-and-calculus/raw/master/maxima_and_calculus.pdf" class="download-button pdf"><span>Download</span></a>
+						<a href="https://github.com/lqbrin/maxima-and-calculus" class="code">Source available on GitHub</a>
+					</div>
+					<span class="blc"></span><span class="trc"></span>
+				</div>
+				<article class="markdown-body">
+					<img src="webpage/images/pages/maxima_and_calculus1.png" width=300 height=406 style="float:right; padding: 10px; border: 5px solid #777;">
+					<h2>Maxima and the Calculus</h2>
+					<p><em>Maxima and the Calculus</em> is a 52-page document addressing the use of <a href="http://maxima.sourceforge.net/">Maxima</a> for solving typical Calculus problems. Its content is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a></p>
+					<h2>What is Maxima?</h2>
+					<p>Maxima is an open source computer algebra system (CAS). It is free for everyone to download, install, and use! In fact, its (GNU Public) license, or GPL, allows everyone the freedom to modify and distribute it too, as long as its license remains with it unmodified. </p>
+					<h2>What is a CAS?</h2>
+					<p>Any CAS may be thought of as a highly sophisticated calculator. It can be used to do any of the types of numerical calculations you might expect of a calculator such as trigonometric, exponential, logarithmic, and arithemtic computations. However, a CAS' main purpose, and what sets a CAS apart from most calculators, is symbolic manipulation. For example, a CAS can be used to differentiate or integrate $x^{2}\sin x$. It can be used to multiply polynomials and solve equations too! And a CAS will do these things exactly. When asked to divide $36/72$, a CAS will respond with the simplified fraction $1/2$ rather than $0.5$. Similarly, $\sin(2)$, $\pi$, $e$, $\sqrt{7}$ and other irrational numbers are interpreted symbolically as $\sin(2)$, $\pi$, $e$, $\sqrt{7}$, and so on, rather than their decimal approximations. Computer algebra systems are designed to do on a computer what we may be accustomed to doing with pencil and paper!</p>
+					<h2>Table of Contents</h2>
+					<div class="preview">
+						<p><img src="webpage/images/pages/maxima_and_calculus1.png"><img src="webpage/images/pages/maxima_and_calculus2.png"></p>
+					</div>
+				</article>
+			</div>
+		</div>
+		<footer>
+			<div class="owner">
+				<p><a href="https://github.com/lqbrin" class="avatar"><img src="webpage/images/lqbrin.png" height="48" width="48"></a> <a href="https://github.com/lqbrin">Leon Q. Brin</a> maintains <a href="https://github.com/lqbrin/maxima-and-calculus">Maxima and the Calculus</a></p>
+			</div>
+		</footer>
+	</div>
+	<div class="current-section">
+		<a href="#top">Scroll to top</a>
+		<a href="https://github.com/lqbrin/maxima-and-calculus/tarball/gh-pages" class="tar">tar</a><a href="https://github.com/lqbrin/maxima-and-calculus/zipball/gh-pages" class="zip">zip</a><a href="" class="code">source code</a>
+		<p class="name"></p>
+	</div>
+</body>
 
-  <div class="wrapper">
-    <header>
-      <h1 class="title">Maxima and the Calculus</h1>
-    </header>
-    <div id="container">
-      <p class="tagline">A short manuscript on using Maxima to solve typical calculus problems</p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          
-          <a href="https://github.com/lqbrin/maxima-and-calculus/tarball/master" class="download-button tar"><span>Download</span></a>
-          <a href="https://github.com/lqbrin/maxima-and-calculus/zipball/master" class="download-button zip"><span>Download</span></a>
-
-          <a href="https://github.com/lqbrin/maxima-and-calculus" class="code">View Maxima and the Calculus on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-			<h1>Maxima and the Calculus</h1>
-			<p>A short manuscript on using Maxima to solve typical calculus problems.</p>
-        </article>
-      </div>
-    </div>
-    <footer>
-      <div class="owner">
-      
-      <p><a href="https://github.com/lqbrin" class="avatar"><img src="webpage/images/lqbrin.png" height="48" width="48"></a> <a href="https://github.com/lqbrin">Leon Q. Brin</a> maintains <a href="https://github.com/lqbrin/maxima-and-calculus">Maxima and the Calculus</a></p>
-
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/lqbrin/maxima-and-calculus/tarball/gh-pages" class="tar">tar</a><a href="https://github.com/lqbrin/maxima-and-calculus/zipball/gh-pages" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
-
-</body></html>
+</html>
