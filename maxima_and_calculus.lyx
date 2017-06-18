@@ -104,7 +104,7 @@ About this document
 \end_layout
 
 \begin_layout Standard
-This document discusses the use of Maxima (
+This document addresses the use of Maxima (
 \begin_inset ERT
 status open
 
@@ -216,9 +216,9 @@ status collapsed
 \end_inset
 
 ).
- As such it is free for everyone to download, install, and use! In fact,
- its (GNU Public) license, or GPL, allows everyone the freedom to modify
- and distribute it too, as long as its license remains with it unmodified.
+ It is free for everyone to download, install, and use! In fact, its (GNU
+ Public) license, or GPL, allows everyone the freedom to modify and distribute
+ it too, as long as its license remains with it unmodified.
  From the Maxima Manual: 
 \end_layout
 
@@ -269,7 +269,7 @@ Any CAS may be thought of as a highly sophisticated calculator.
  However, numerical calculation is not the main purpose of a CAS.
  A CAS' main purpose, and what sets a CAS apart from most calculators, is
  symbolic manipulation.
- As such, when asked to divide 
+ When asked to divide 
 \begin_inset Formula $36/72$
 \end_inset
 
